@@ -1,0 +1,435 @@
+.maindiv{
+    width: 100%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #f2f4f7;
+}
+
+
+@media only screen and (max-width:769px) {
+    .maindiv{
+        margin: 0%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .maindiv{
+        width: 100%;
+        margin: 0%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.child1{
+    width: 40%;
+    height: 450px;
+    margin-top: 15%;
+    background-color: #f2f4f7;
+}
+
+@media only screen and (max-width:769px) {
+    .child1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 0% auto;
+    }
+    
+}
+
+@media only screen and (max-width:769px) {
+    .child1{
+        width: 100%;
+        margin-top: -150px;
+    }
+    
+}
+
+
+
+.fblogo > img{
+    width: 60%;
+}
+
+@media only screen and (max-width:769px) {
+    .fbimg{
+        margin: 0% auto;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        }
+    
+}
+
+@media only screen and (max-width:425px) {
+    .fbimg{
+        margin: 0% auto;
+        width: 60%;
+        height: 60px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        }
+    
+}
+
+
+.child2{
+    width: 30%;
+    height: 450px;
+    margin-top: 4%;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 24px 9px rgba(0,0,0,0.2)
+;
+}
+
+@media only screen and (max-width:769px) {
+    .child2{
+        width: 50%;
+        /* margin-top: -140px; */
+    }
+    
+}
+
+@media only screen and (max-width:425px) {
+    .child2{
+        width: 80%;
+        margin-top: -150px;
+    }
+    
+}
+
+.fbpara > p {
+    font-size: 29px;
+}
+
+@media only screen and (max-width:769px) {
+    .fbpara > p {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width:425px) {
+    .fbpara > p {
+        display: none;
+    }
+    
+}
+
+
+.inp001 > input , .inp002 > input{
+    width: 90%;
+    height: 50px;
+    margin: 5%;
+    text-align: center;
+    margin-bottom: 1%;
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+
+
+@media only screen and (max-width:769px) {
+    .inp001 > input , .inp002 > input {
+        width: 90%;
+        height: 40px;
+        font-size: 20px;
+    }
+    
+}
+
+@media only screen and (max-width:769px) {
+    .Button001 > button , .Button002 > button , .Button003 > button{
+        width: 90%;
+        height: 40px;
+        font-size: 10px;
+    }
+    
+}
+
+
+@media only screen and (max-width:425px) {
+    .inp001 > input , .inp002 > input {
+        width: 90%;
+        height: 40px;
+        font-size: 20px;
+    }
+    
+}
+
+@media only screen and (max-width:425px) {
+    .Button001 > button , .Button002 > button , .Button003 > button{
+        width: 90%;
+        height: 40px;
+        font-size: 10px;
+    }
+    
+}
+
+
+.inp001 > input:focus {
+    border-radius: 14px;
+}
+
+.Button001 > button , .Button003 > button{
+    width: 90%;
+    height: 50px;
+    margin: 5%;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 1%;
+    border: 1px solid gray;
+    background-color: #0866ff;
+    border-radius: 12px;
+}
+
+.Button001 > button:hover {
+    opacity: 0.9;
+    cursor: wait;
+}
+
+.Forgotpass > a {
+    color: #0866ff;
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+.Button002 > button{
+    width: 90%;
+    height: 50px;
+    margin: 5%;
+    font-size: 20px;
+    margin-bottom: 1%;
+    border: 1px solid gray;
+    background-color: #42b72a;
+    border-radius: 12px;
+}
+
+.Button002 > button:hover {
+    opacity: 0.9;
+    cursor: wait;
+}
+
+.hr001{
+    border: 1 grey solid;
+    width: 85%;
+}
+
+                                        /* SIGN UP */
+
+                                        
+.signupmain{
+    margin: 0 auto;
+    width: 30%;
+    height: 700px;
+}
+
+@media only screen and (max-width:769px) {
+    .signupmain{
+        width: 100%;
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .signupmain{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .signupmain{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .signupmain{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:769px) {
+    input{
+        width: 10%;
+    }
+}
+
+.signuplogo{
+    text-align: center;
+}
+
+.signuplogo > img{
+    width: 55%;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.div0002{
+    border-radius: 9px;
+    box-shadow:  rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+                 rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
+    text-align: center;
+    width: 90%;     
+    margin: 0 auto;
+}
+
+.div0002 > h1{
+    font-size: 25px;
+}
+
+.div0002 > h2{
+    font-size: 15px;
+    color: grey;
+}
+
+.div0002 > hr{
+    border: 1px solid grey;
+    margin: 2px;
+}
+
+.signininps{
+    width: 100%;
+}
+
+.signininps > input{
+    width: 40%;
+    margin: 5px;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid grey;
+    
+}
+
+.h003{
+    margin: 5px;
+    font-size: 20px;
+    text-align: left;
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width:425px) {
+    .h003{
+        width: 30%;
+        font-size: small;
+    }
+}
+
+
+.h004{
+    margin: 5px;
+    font-size: 20px;
+    text-align: left;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width:425px) {
+    .h004{
+        width: 20%;
+        font-size: small;
+    }
+}
+
+.divselecs{
+    width: 100%;
+}
+
+.divselecs > select{
+    width: 25%;
+    height: 30px;
+    margin: 5px;
+}
+
+.checkboxes{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0% auto;
+}
+
+
+.divcheck1 ,.divcheck2 ,.divcheck3{
+    width: 90%;
+    height: 60px;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+@media only screen and (max-width:425px) {
+    .divcheck1 ,.divcheck2 ,.divcheck3{
+        width: 80%;
+        font-size: small;
+    }
+}
+
+
+.signininps2{
+    width: 100%;
+    margin: 10px auto;
+}
+
+.signininps2 > input{
+    width: 85%;
+    margin: 10px;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid grey;
+    
+}
+
+.parasignup{
+    margin: 0% auto;
+    width: 90%;
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: left;
+}
+
+
+.Button005>button{
+    width: 50%;
+    height: 50px;
+    margin: 5%;
+    font-size: 20px;
+    margin-bottom: 1%;
+    border: 1px solid gray;
+    background-color: #42b72a;
+    border-radius: 12px;
+}
+
+.Button002 > button:hover {
+    opacity: 0.9;
+    cursor: wait;
+}
+
+.haveaccount{
+    color: rgb(1, 92, 153);
+}
